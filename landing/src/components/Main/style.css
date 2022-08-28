@@ -1,5 +1,5 @@
-.main {
-  @apply relative flex flex-col items-center gap-6  p-4 text-center;
+.main__section-1 {
+  @apply relative flex flex-col items-center gap-6 p-4 text-center;
 }
 
 .main__title {
@@ -11,9 +11,25 @@
 }
 
 .main__call-to-action {
-  @apply absolute top-full left-1/2 flex -translate-y-1/2 -translate-x-1/2 items-center justify-center gap-2 rounded bg-off-white px-6 py-4 font-bold text-black shadow-xl;
+  @apply absolute top-full left-1/2 flex -translate-y-1/2 -translate-x-1/2 items-center justify-center gap-2 rounded bg-off-white px-4 py-3 font-bold text-black shadow-lg;
 }
 
 .main__action-text {
   @apply whitespace-nowrap text-sm;
+}
+
+.main__title-2 {
+  @apply text-2xl font-bold text-custom-black;
+}
+
+.main__subtitle-2 {
+  @apply text-base font-medium text-grey-2;
+}
+
+.main__title-3 {
+  @apply text-2xl font-bold text-orange-text;
+}
+
+.main__crypto-exchange-prices {
+  @apply flex flex-col items-stretch rounded-lg bg-white shadow-md;
 }
